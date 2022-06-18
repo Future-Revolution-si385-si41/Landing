@@ -185,3 +185,63 @@ h3 {
     
 }
 
+/* Quienes Somos */
+.quienessomos {
+    display: flex;
+    justify-content: center;
+    padding: 5rem 0;
+    gap: 2rem;
+}
+.quienessomos-contenido {
+    text-align: center;
+    padding-top: 5rem;
+    padding: 1.5rem;
+}
+.quienessomos-contenido-video {
+    padding: 20rem 20rem;
+    background-color: var(--negro);
+    display: flex;
+    justify-content: center;
+    border-radius: .5rem;
+}
+.quienessomos-video:hover{
+    cursor: pointer;
+}
+.quienessomos-contenido-titulo {
+    font-size: 6rem;
+    color: #F64C4C;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+.quienessomos-contenido-texto {
+    font-size: 3rem;
+    color: #676767;
+}
+@media (min-width: 768px) {
+    .quienessomos {
+        padding: 15rem 0;
+        width: 80rem;
+    }
+    .quienessomos-contenido {
+        text-align: initial;
+    }
+
+    .quienessomos-contenido-video {
+        padding: 20rem 15rem;
+        border-radius: .5rem;
+    }
+    .quienessomos-contenido-titulo {
+        font-size: 6rem;
+        color: #F64C4C;
+        text-align: center;
+    }
+    .quienessomos-contenido-titulo {
+        font-size: 6rem;
+        color: #F64C4C;
+        text-align: center;
+    }
+    .quienessomos-contenido-texto {
+        font-size: 3rem;
+        color: #676767;
+    }
+}
