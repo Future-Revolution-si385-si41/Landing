@@ -469,3 +469,36 @@ h3 {
         justify-content: center;
     }
 }
+
+/** Footer **/
+.footer {
+    display: block;
+    text-align: center;
+    background-color: #F64C4C;
+    margin: 0;
+    max-width: 100%;
+    color: var(--blanco);
+    padding: 0 4rem;
+    padding: 2rem;
+}
+.footer-terminos a {
+    text-align: center;
+}
+.footer-terminos a {
+    color: var(--blanco);
+}
+.footer-imagenes:hover {
+    cursor: pointer;
+}
+
+@media (min-width: 768px) {
+    .footer {
+        padding: 2rem;
+        display: flex;
+        gap: 5rem;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}
+
