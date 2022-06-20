@@ -115,7 +115,7 @@ h3 {
     height: 70rem;
 }
 .header-presentacion {
-    background: url(/img/fondo.png) no-repeat;
+    background: url(/Landing/img/fondo.png) no-repeat;
     background-size: cover;
     background-attachment: fixed;
     background-position: center center;
