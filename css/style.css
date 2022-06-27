@@ -184,9 +184,9 @@ h3 {
     
 }
 
+
 /* Quienes Somos */
 .quienessomos {
-    display: flex;
     justify-content: center;
     padding: 5rem 0;
     gap: 2rem;
@@ -194,10 +194,11 @@ h3 {
 .quienessomos-contenido {
     text-align: center;
     padding-top: 5rem;
-    padding: 1.5rem;
+    padding: 0 2rem;
 }
-.quienessomos-contenido-video {
+.quienessomos-video {
     padding: 20rem 20rem;
+    margin: 0 2rem;
     background-color: var(--negro);
     display: flex;
     justify-content: center;
@@ -216,17 +217,22 @@ h3 {
     font-size: 3rem;
     color: #676767;
 }
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     .quienessomos {
+        display: flex;
         padding: 15rem 0;
-        width: 80rem;
+        gap: 3rem;
+        align-items: center;
+        border-bottom: 1px solid #F64C4C ;
     }
     .quienessomos-contenido {
         text-align: initial;
+        width: 50%;
     }
 
-    .quienessomos-contenido-video {
-        padding: 20rem 15rem;
+    .quienessomos-video {
+        padding: 20rem 30rem;
+        margin: 0 2rem;
         border-radius: .5rem;
     }
     .quienessomos-contenido-titulo {
@@ -244,7 +250,6 @@ h3 {
         color: #676767;
     }
 }
-
 /* Funcionamiento */
 
 .funcionamiento {
@@ -255,7 +260,6 @@ h3 {
 }
 
 .funcionamiento-contenido{
-    padding: 10rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -270,6 +274,7 @@ h3 {
 .funcionamiento-contenido-texto {
     color: #676767;
     font-size: 3rem;
+    padding: 0 2rem;
 }
 .funcionamiento-imagen img{
     max-height: 80rem;
@@ -281,14 +286,14 @@ h3 {
 }
 @media (min-width: 1440px) {
     .funcionamiento {
-        padding: 15rem 5rem;
+        padding: 15rem 0rem;
         display: grid;
         grid-template-columns: repeat(2,1fr);
         column-gap: 3rem;
         align-items:center;
+        border-bottom: 1px solid #F64C4C ;
     }
     .funcionamiento-contenido{
-        padding: 10rem;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -303,6 +308,7 @@ h3 {
     .funcionamiento-contenido-texto {
         color: #676767;
         font-size: 3rem;
+        padding: 0;
     }
     .funcionamiento-imagen img{
         max-height: 80rem;
@@ -330,6 +336,7 @@ h3 {
 
 }
 .beneficios-contenido-lista {
+    padding: 0 2rem;
     font-size: 3rem;
     list-style: none;
     color: #676767;
@@ -361,6 +368,8 @@ h3 {
         display: grid;
         grid-template-columns: repeat(2,1fr);
         column-gap: 5rem;
+        border-bottom: 1px solid #F64C4C ;
+
     }
     .beneficios-contenido-titulo {
         font-size: 6rem;
@@ -372,6 +381,7 @@ h3 {
         font-size: 3rem;
         list-style: none;
         color: #676767;
+        padding: 0;
     }
     .beneficios-imagen img{
         padding-top: 12rem;
@@ -402,11 +412,10 @@ h3 {
     padding: 5rem 0;
 }
 .descargar-contenido {
-    padding-top: 5rem;
+    padding: 5rem 2rem;
 }
 
 .descargar-contenido{
-    padding: 10rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -437,14 +446,14 @@ h3 {
 }
 @media (min-width: 1440px) {
     .descargar {
-        padding: 15rem 5rem;
+        padding: 15rem 0rem;
         display: grid;
         grid-template-columns: repeat(2,1fr);
         column-gap: 3rem;
         align-items:center;
+        border-bottom: 1px solid #F64C4C ;
     }
     .descargar-contenido{
-        padding: 10rem;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -470,6 +479,32 @@ h3 {
     }
 }
 
+/** Video **/
+.video {
+    padding: 1rem;
+}
+.video-contenido {
+    display: flex;
+    flex-direction: column;
+}
+.video-contenido h4 {
+    font-size: 6rem;
+    text-align: center;
+    color: #F64C4C;
+}
+.video iframe {
+    margin: 0 auto;
+}
+
+@media (min-width: 1290px) {
+    .video {
+        display: flex;
+        gap: 3rem;
+        justify-content: center;
+    }
+    
+}
+
 /** Footer **/
 .footer {
     display: block;
@@ -490,15 +525,20 @@ h3 {
 .footer-imagenes:hover {
     cursor: pointer;
 }
-
+.footer img {
+    width: 4rem;
+}
 @media (min-width: 768px) {
     .footer {
-        padding: 2rem;
+        padding: 4rem 2rem;
         display: flex;
         gap: 5rem;
-        justify-content: center;
+        justify-content: space-around;
         align-items: center;
     }
+    .footer-texto {
+        font-size: 2rem;
+    }
+    
     
 }
-
