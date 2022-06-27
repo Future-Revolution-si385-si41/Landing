@@ -412,11 +412,10 @@ h3 {
     padding: 5rem 0;
 }
 .descargar-contenido {
-    padding-top: 5rem;
+    padding: 5rem 2rem;
 }
 
 .descargar-contenido{
-    padding: 10rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -447,14 +446,14 @@ h3 {
 }
 @media (min-width: 1440px) {
     .descargar {
-        padding: 15rem 5rem;
+        padding: 15rem 0rem;
         display: grid;
         grid-template-columns: repeat(2,1fr);
         column-gap: 3rem;
         align-items:center;
+        border-bottom: 1px solid #F64C4C ;
     }
     .descargar-contenido{
-        padding: 10rem;
         display: flex;
         flex-direction: column;
         justify-content: center;
