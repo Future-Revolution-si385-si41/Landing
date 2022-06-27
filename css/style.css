@@ -336,6 +336,7 @@ h3 {
 
 }
 .beneficios-contenido-lista {
+    padding: 0 2rem;
     font-size: 3rem;
     list-style: none;
     color: #676767;
@@ -367,6 +368,8 @@ h3 {
         display: grid;
         grid-template-columns: repeat(2,1fr);
         column-gap: 5rem;
+        border-bottom: 1px solid #F64C4C ;
+
     }
     .beneficios-contenido-titulo {
         font-size: 6rem;
@@ -378,6 +381,7 @@ h3 {
         font-size: 3rem;
         list-style: none;
         color: #676767;
+        padding: 0;
     }
     .beneficios-imagen img{
         padding-top: 12rem;
